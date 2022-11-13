@@ -1,0 +1,14 @@
+name = "bendy-lib"
+filename = "bendy-lib-forge-2.1.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "6b88a6bf6386bb3016e319387cf36865d4e7e358"
+
+[update]
+[update.curseforge]
+file-id = 3930014
+project-id = 623373

@@ -1,0 +1,14 @@
+name = "Ellemes' Container Library"
+filename = "ellemes-container-library-2.1.0-alpha.12+1.18.2-forge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "caa192a0f01863a0dbc7434193bbf94bfb711cb1"
+
+[update]
+[update.curseforge]
+file-id = 3992868
+project-id = 530668

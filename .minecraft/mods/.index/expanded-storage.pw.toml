@@ -1,0 +1,14 @@
+name = "Expanded Storage"
+filename = "expandedstorage-8.1.0-alpha.7+1.18.2-forge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "cdc8549d6e12a278c2de4e9e18e23265da914c00"
+
+[update]
+[update.curseforge]
+file-id = 4022957
+project-id = 317856

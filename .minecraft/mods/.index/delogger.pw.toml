@@ -1,0 +1,14 @@
+name = "DeLogger"
+filename = "DeLogger-4.0.0-build.4+mc1.18.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "4730e6d5796b1f7a876b448c190692c330daafe3"
+
+[update]
+[update.curseforge]
+file-id = 3669838
+project-id = 413477

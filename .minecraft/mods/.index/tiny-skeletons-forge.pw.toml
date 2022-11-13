@@ -1,0 +1,14 @@
+name = "Tiny Skeletons"
+filename = "TinySkeletons-v3.2.1-1.18.2-Forge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "bc8b6ba07cf82087f09aa4067f18ae7205807514"
+
+[update]
+[update.curseforge]
+file-id = 3727735
+project-id = 548647

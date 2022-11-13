@@ -1,0 +1,14 @@
+name = "Redstone Arsenal"
+filename = "redstone_arsenal-1.18.2-6.0.0b.7.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "63f5dbe35faf8cb7edb0eda69dc162e2e34bbcee"
+
+[update]
+[update.curseforge]
+file-id = 4022677
+project-id = 70631

@@ -1,0 +1,14 @@
+name = "CraftingCraft"
+filename = "craftingcraft-forge-1.18.2-12.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "0a484f4f30f6f049f8c8d6f4b48b4ade4fec954f"
+
+[update]
+[update.curseforge]
+file-id = 3684751
+project-id = 237581

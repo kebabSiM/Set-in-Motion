@@ -1,0 +1,27 @@
+{
+	id: "7CCDE61FDFB20A71"
+	group: "29C89B2F6F92F394"
+	order_index: 2
+	filename: "alloy_cat"
+	title: "Alloy Cat"
+	icon: {
+		id: "tconstruct:pick_head"
+		Count: 1b
+		tag: {
+			Material: "tconstruct:amethyst_bronze"
+		}
+	}
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "1B0BC0BDE136ED86"
+		tasks: [{
+			id: "4822790418F288EE"
+			type: "item"
+			item: "tconstruct:fantastic_foundry"
+		}]
+	}]
+}

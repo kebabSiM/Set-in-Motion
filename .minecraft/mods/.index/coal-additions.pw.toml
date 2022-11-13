@@ -1,0 +1,14 @@
+name = "Coal Additions"
+filename = "Coal Additions 1.0.0 - 1.18.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "0c3d0644dd5f2973db526e32bf55a68433b3108d"
+
+[update]
+[update.curseforge]
+file-id = 3725944
+project-id = 539445

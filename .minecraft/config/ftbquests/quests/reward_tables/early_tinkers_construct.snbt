@@ -1,0 +1,27 @@
+{
+	id: "60B651C50FF63E7E"
+	order_index: 0
+	title: "Early Tinker's Construct"
+	loot_size: 1
+	rewards: [
+		{ icon: { id: "minecraft:honeycomb", Count: 8b }, item: "minecraft:honeycomb", count: 8, weight: 56880 }
+		{ icon: { id: "minecraft:charcoal", Count: 16b }, item: "minecraft:charcoal", count: 16, weight: 56880 }
+		{ icon: { id: "minecraft:gold_ingot", Count: 4b }, item: "minecraft:gold_ingot", count: 4, random_bonus: 2, weight: 34133 }
+		{ icon: { id: "minecraft:scaffolding", Count: 16b }, item: "minecraft:scaffolding", count: 16, weight: 34133 }
+		{ item: "tconstruct:sky_cake" }
+		{ item: "farmersdelight:cooking_pot", weight: 160 }
+		{ item: "farmersdelight:stove", weight: 693 }
+		{ item: "minecraft:jukebox", weight: 26 }
+		{ icon: { id: "minecraft:amethyst_shard", Count: 4b }, item: "minecraft:amethyst_shard", count: 4, weight: 6 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 4929586
+		item_name: "Tinker's Treasure"
+		string_id: "early_tinker_s_construct"
+	}
+}

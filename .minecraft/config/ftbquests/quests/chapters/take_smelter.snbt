@@ -1,0 +1,28 @@
+{
+	id: "621FE7BBC3AC5FE0"
+	group: "29C89B2F6F92F394"
+	order_index: 1
+	filename: "take_smelter"
+	title: "Take Smelter"
+	icon: {
+		id: "tconstruct:pick_head"
+		Count: 1b
+		tag: {
+			Material: "tconstruct:iron"
+		}
+	}
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		dependencies: ["3B4BBF49AD9AB078"]
+		id: "7DB619093357BCE1"
+		tasks: [{
+			id: "5FFEB3C14F423D21"
+			type: "item"
+			item: "tconstruct:mighty_smelting"
+		}]
+	}]
+}

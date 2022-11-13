@@ -1,0 +1,14 @@
+name = "InvMoveCompats"
+filename = "InvMoveCompats-1.18-0.2.0-Forge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "77485a8d806fc452d937ee00e1e737a47776722e"
+
+[update]
+[update.curseforge]
+file-id = 3905240
+project-id = 581875

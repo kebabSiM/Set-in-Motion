@@ -1,0 +1,14 @@
+name = "Illuminations Forge 🔥"
+filename = "illuminations-forge-1.18.2-1.10.2.19.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "a8caecefbf2ff34f0fc1d1dc7fb3d60550a0cdb8"
+
+[update]
+[update.curseforge]
+file-id = 4021747
+project-id = 649959

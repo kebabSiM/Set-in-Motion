@@ -1,0 +1,14 @@
+name = "Pick Block But For Tools"
+filename = "quickpicktool-1.18.2-1.0.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f4a6fd099c5c773876e152971042898d11fe95aa"
+
+[update]
+[update.curseforge]
+file-id = 4012237
+project-id = 582529

@@ -1,0 +1,13 @@
+{
+	id: "5A13AC70E6ADE68D"
+	order_index: 2
+	title: "Vanilla Plants"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:sugar_cane", count: 4 }
+		{ item: "minecraft:kelp", count: 4 }
+		{ item: "minecraft:lily_pad", count: 8 }
+		{ item: "minecraft:moss_block", count: 8 }
+		{ item: "minecraft:bamboo", count: 4 }
+	]
+}

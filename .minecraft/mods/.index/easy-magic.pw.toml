@@ -1,0 +1,14 @@
+name = "Easy Magic"
+filename = "EasyMagic-v3.3.0-1.18.2-Forge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "cbc3b613aa55c4a698b4d4e50ea54f192ac90f02"
+
+[update]
+[update.curseforge]
+file-id = 3671353
+project-id = 456239

@@ -1,0 +1,14 @@
+name = "Delete Worlds To Trash [Forge]"
+filename = "DeleteWorldsToTrash-v3.2.0-1.18.2-Forge.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "0bf5184b26e93dec7635cb8565572a182565c843"
+
+[update]
+[update.curseforge]
+file-id = 3671247
+project-id = 571076

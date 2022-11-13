@@ -1,0 +1,28 @@
+
+#General mod settings
+[general]
+	#Only spawn a zombie player if the player died by a zombie directly
+	requiresDeathByZombieToSpawnZombiePlayer = false
+	#Finds visible chests near and randomly moves contents around, only zombie players spawned from actual players use this
+	messUpChests = true
+	#No comment
+	opensDoors = true
+	#No comment
+	pickupLootWhenHostile = false
+	#No comment
+	pickupLootWhenCalm = true
+	#To help prevent endless multiplication of zombies if you die near your own spawn point
+	#Range: > -2147483648
+	distanceFromPlayerSpawnPointToPreventZombieSpawn = 16
+	#Spawn zombie players naturally in the world, will spawn in every biome zombies do
+	Spawning_spawnZombiePlayersNaturally = true
+	#Only used it Spawning_spawnZombiePlayersNaturally is true. Weight of zombie players, higher = more likely to spawn, vanilla sets zombie as 100
+	#Range: > -2147483648
+	Spawning_weight = 40
+	Spawning_playerNamesToUse = "PhoenixfireLune, Corosus, Cojomax99, Mr_okushama, tterrag, medsouz, NotActuallyTerry, MrRube"
+	#Any player that joins your dedicated server will have their name added to the Spawning_playerNamesToUse list
+	automaticallyAddJoinedPlayersToNamesList = true
+	#Use at own risk, will not support
+	enableAdvancedDeveloperConfigFiles = false
+	calmingItems = "#food, minecraft:porkchop, minecraft:mutton, minecraft:tropical_fish, minecraft:beef, minecraft:chicken, minecraft:rabbit, minecraft:bread"
+

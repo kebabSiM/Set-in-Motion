@@ -1,0 +1,14 @@
+name = "Rhino"
+filename = "rhino-forge-1802.2.1-build.240.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "3a6cb8ddad8041d43715a416066011744c11707a"
+
+[update]
+[update.curseforge]
+file-id = 4022965
+project-id = 416294

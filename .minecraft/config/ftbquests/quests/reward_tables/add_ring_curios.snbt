@@ -1,0 +1,19 @@
+{
+	id: "6AF6B254DFB33CBE"
+	order_index: 3
+	title: "&6Add Ring Curios"
+	loot_size: 1
+	rewards: [{
+		title: "&6Extra ring slot!"
+		icon: {
+			id: "ftbquests:custom_icon"
+			Count: 1b
+			tag: {
+				Icon: "kubejs:textures/item/icon_ring.png"
+			}
+		}
+		command: "/curios add ring @p"
+		player_command: true
+		type: "command"
+	}]
+}

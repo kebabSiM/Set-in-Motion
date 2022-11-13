@@ -1,0 +1,576 @@
+{
+	id: "04221FAFE7D55BD7"
+	group: "29C89B2F6F92F394"
+	order_index: 0
+	filename: "tinkers_club"
+	title: "&eThe Tinker"
+	icon: {
+		id: "tconstruct:pick_head"
+		Count: 1b
+		tag: {
+			Material: "tconstruct:rock"
+		}
+	}
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&eLittle Tinker"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Make a copy of \"&eTinker and You&7\"."
+			description: ["&8(PS: You can use a Farmer's Delight Knife on grass to get Canvas, a replacement of leather."]
+			id: "2745C0E9435A8562"
+			tasks: [{
+				id: "69AA24273F782AB6"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "0FAB3D82ED608A7A"
+				type: "item"
+				icon: { id: "minecraft:vine", Count: 4b }
+				item: "minecraft:vine"
+				count: 4
+			}]
+		}
+		{
+			title: "&cJack-o'-Pattern"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "You'll need &ca bit&7 of these."
+			description: ["&cRed &8titled quests are more difficult than normal &eyellow &8quests."]
+			dependencies: ["2745C0E9435A8562"]
+			id: "3D3536FD44A1AD47"
+			tasks: [{
+				id: "0FCCED2EF5103E8E"
+				type: "item"
+				icon: { id: "tconstruct:pattern", Count: 36b }
+				item: "tconstruct:pattern"
+				count: 36L
+			}]
+			rewards: [{
+				id: "1BCECF188421C16E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_tinker_s_construct"
+					}
+				}
+			}]
+		}
+		{
+			title: "&eStation State"
+			x: -0.5d
+			y: 1.0d
+			subtitle: "Here's where you'll take your &eparts&7 and make a &etool &7out of them."
+			dependencies: ["3D3536FD44A1AD47"]
+			id: "490509E97A7FFA7B"
+			tasks: [{
+				id: "24DF6A5CEDD551E8"
+				type: "item"
+				title: "Station State"
+				item: "tconstruct:tinker_station"
+			}]
+			rewards: [{
+				id: "5328AC590A639B20"
+				type: "choice"
+				table_id: 6490721088877487757L
+			}]
+		}
+		{
+			title: "&ePartbeat"
+			x: 0.5d
+			y: 1.0d
+			subtitle: "Here's where you'll take your &eassorted materials &7and &epatterns &7and create parts out of them."
+			dependencies: ["3D3536FD44A1AD47"]
+			id: "0664AA9228BB8789"
+			tasks: [{
+				id: "24D9F762856E5853"
+				type: "item"
+				item: "tconstruct:part_builder"
+			}]
+			rewards: [{
+				id: "214EAAF29CFF5F37"
+				type: "choice"
+				table_id: 5355737007071473094L
+			}]
+		}
+		{
+			title: "&9Wild Chest"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "You'll probably want a place to store extra parts, although &9not required&7."
+			description: [""]
+			dependencies: [
+				"3D3536FD44A1AD47"
+				"490509E97A7FFA7B"
+			]
+			optional: true
+			id: "20168FB90960A73F"
+			tasks: [{
+				id: "1660732DD3DE21CE"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+			rewards: [{
+				id: "43326E47C4A956FF"
+				type: "item"
+				icon: { id: "minecraft:flint", Count: 8b }
+				item: "minecraft:flint"
+				count: 8
+			}]
+		}
+		{
+			title: "&9Crafting Queen"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "Place this next to a chest! Convenient, but &9not required&7."
+			description: [""]
+			dependencies: [
+				"3D3536FD44A1AD47"
+				"0664AA9228BB8789"
+			]
+			optional: true
+			id: "4C3FE6DCD10E307B"
+			tasks: [{
+				id: "65FF3C3CFF550686"
+				type: "item"
+				item: "tconstruct:crafting_station"
+			}]
+			rewards: [{
+				id: "06C3E1CD0A945081"
+				type: "item"
+				icon: { id: "minecraft:bone", Count: 8b }
+				item: "minecraft:bone"
+				count: 8
+			}]
+		}
+		{
+			title: "&dTool's Errand"
+			x: 0.5d
+			y: 3.0d
+			subtitle: "With Tinker's Construct tools, you can &dswap&7 out the parts as neccessary, and later on, &dupgrade&7 them with unique modifiers."
+			description: ["&8You won't get bark from Tinker's tools, so it's still worth keeping a normal axe around."]
+			dependencies: [
+				"0664AA9228BB8789"
+				"490509E97A7FFA7B"
+				"3D3536FD44A1AD47"
+			]
+			id: "6C46C3E8C702A903"
+			tasks: [
+				{
+					id: "32943F37951A5F95"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:mining_speed": 3.5f
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:harvest_tier": "minecraft:stone"
+								"tconstruct:durability": 85.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:solar_powered"
+									level: 1s
+								}
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:jagged"
+									level: 1s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:flint"
+								"tconstruct:wood#oak"
+								"tconstruct:vine"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "0CABF78D1FEEA2FE"
+					type: "item"
+					item: {
+						id: "tconstruct:hand_axe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:mining_speed": 3.5f
+								"tconstruct:attack_damage": 7.25f
+								"tconstruct:harvest_tier": "minecraft:stone"
+								"tconstruct:durability": 85.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:solar_powered"
+									level: 1s
+								}
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:jagged"
+									level: 1s
+								}
+								{
+									name: "tconstruct:axe_strip"
+									level: 1s
+								}
+								{
+									name: "tconstruct:axe_scrape"
+									level: 1s
+								}
+								{
+									name: "tconstruct:axe_wax_off"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:flint"
+								"tconstruct:wood#oak"
+								"tconstruct:vine"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "513A180F2394FF1B"
+					type: "item"
+					icon: { id: "supplementaries:daub", Count: 16b }
+					item: "supplementaries:daub"
+					count: 16
+				}
+				{
+					id: "7420191A9CE1CFA0"
+					type: "item"
+					icon: { id: "decorative_blocks:spruce_beam", Count: 16b }
+					item: "decorative_blocks:spruce_beam"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "&eLost Upgrade"
+			icon: { id: "minecraft:copper_ingot", Count: 16b }
+			x: -1.0d
+			y: 4.0d
+			subtitle: "You can upgrade your tools using &eCopper&7 parts."
+			dependencies: [
+				"6C46C3E8C702A903"
+				"7859210B235657E8"
+			]
+			id: "2A4EB8CAF461AE35"
+			tasks: [{
+				id: "1D72C723416FD3D6"
+				type: "item"
+				icon: { id: "minecraft:copper_ingot", Count: 16b }
+				item: "minecraft:copper_ingot"
+				count: 16L
+			}]
+		}
+		{
+			title: "&dJack of All Spades"
+			x: -0.5d
+			y: 3.0d
+			subtitle: "A unique toolset that can do &ddouble duty&7, but at the cost of not being able to &dmine as efficiently&7."
+			description: ["&8It's also worth noting that these tools are pretty good as improv weapons, too."]
+			dependencies: [
+				"0664AA9228BB8789"
+				"490509E97A7FFA7B"
+			]
+			id: "7859210B235657E8"
+			tasks: [
+				{
+					id: "725FE41B838CF88A"
+					type: "item"
+					item: {
+						id: "tconstruct:mattock"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 1.1f
+								"tconstruct:attack_damage": 1.1f
+								"tconstruct:durability": 1.25f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:mining_speed": 3.8500001f
+								"tconstruct:attack_damage": 3.025f
+								"tconstruct:harvest_tier": "minecraft:stone"
+								"tconstruct:durability": 106.25f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:jagged"
+									level: 2s
+								}
+								{
+									name: "tconstruct:knockback"
+									level: 1s
+								}
+								{
+									name: "tconstruct:hoe_till"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:flint"
+								"tconstruct:wood#oak"
+								"tconstruct:flint"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "5DB157A685AB42C5"
+					type: "item"
+					item: {
+						id: "tconstruct:pickadze"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.75f
+								"tconstruct:attack_damage": 1.15f
+								"tconstruct:durability": 1.3f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.3f
+								"tconstruct:mining_speed": 2.625f
+								"tconstruct:attack_damage": 2.0125f
+								"tconstruct:harvest_tier": "minecraft:stone"
+								"tconstruct:durability": 110.49999f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:bane_of_sssss"
+									level: 1s
+								}
+								{
+									name: "tconstruct:cultivated"
+									level: 1s
+								}
+								{
+									name: "tconstruct:jagged"
+									level: 2s
+								}
+								{
+									name: "tconstruct:shovel_flatten"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:flint"
+								"tconstruct:wood#oak"
+								"tconstruct:flint"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4406976C7447CCE9"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+					count: 4
+				}
+				{
+					id: "05A4FA964FEADCF4"
+					type: "item"
+					item: "minecraft:melon_seeds"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "&eBack Chain"
+			icon: { id: "minecraft:chain", Count: 4b }
+			x: 0.0d
+			y: 4.0d
+			subtitle: "By using &eChain&7 as a tool binding, you can add a chance to negate damage."
+			dependencies: [
+				"7859210B235657E8"
+				"6C46C3E8C702A903"
+			]
+			id: "0FF745480768EC08"
+			tasks: [{
+				id: "719528EF900F8476"
+				type: "item"
+				item: "minecraft:chain"
+				count: 4L
+			}]
+		}
+		{
+			title: "&6Traveler Deep"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "Create a set of &6Traveler's Gear&7."
+			dependencies: [
+				"143D53A007C87356"
+				"2A4EB8CAF461AE35"
+			]
+			id: "3B4BBF49AD9AB078"
+			tasks: [
+				{
+					id: "6432AB1E9EC675A4"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 110.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "1E8FA1FFDE74D6AB"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 160.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "672FEAF1A9AB6EEB"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_leggings"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 150.0f
+								"tconstruct:armor": 4.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "33D39F759C9947C9"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 130.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&eCold Leather"
+			icon: { id: "minecraft:leather", Count: 4b }
+			x: 1.0d
+			y: 4.0d
+			subtitle: "By adding &eLeather&7 to your parts, you can repair them using leather instead of other materials."
+			dependencies: [
+				"6C46C3E8C702A903"
+				"7859210B235657E8"
+			]
+			id: "143D53A007C87356"
+			tasks: [{
+				id: "650D0B1C28AB878F"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4L
+			}]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+name = "Open2Online [Forge]"
+filename = "opentoonline-1.18.2-0.0.3b.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "976a6b4ddafebbdf0a4116423ff28eba2211c721"
+
+[update]
+[update.curseforge]
+file-id = 3681902
+project-id = 581683

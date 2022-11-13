@@ -1,0 +1,14 @@
+name = "Better Third Person"
+filename = "BetterThirdPerson-Forge-1.18.2-1.8.1.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "285f9b1948194ae2028061faadd09bd85eb78a05"
+
+[update]
+[update.curseforge]
+file-id = 3834420
+project-id = 435044

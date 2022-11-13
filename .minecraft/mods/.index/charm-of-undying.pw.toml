@@ -1,0 +1,14 @@
+name = "Charm of Undying (Forge)"
+filename = "curioofundying-forge-1.18-5.3.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f7add4f447569de769c18536f85f37f5950fb97b"
+
+[update]
+[update.curseforge]
+file-id = 3553486
+project-id = 316873
