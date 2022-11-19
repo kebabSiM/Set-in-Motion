@@ -104,7 +104,14 @@
     "dev.gigaherz.toolbelt.common.BeltScreen": true,
     "slimeknights.tconstruct.smeltery.client.screen.MelterScreen": true,
     "gg.moonflower.etched.client.screen.EditMusicLabelScreen": true,
-    "com.simibubi.create.foundation.ponder.ui.PonderUI": true
+    "com.simibubi.create.foundation.ponder.ui.PonderUI": true,
+    "journeymap.client.ui.waypoint.WaypointEditor": true,
+    "fuzs.configmenusforge.client.gui.util.ScreenUtil$2": true,
+    "potionstudios.byg.client.gui.biomepedia.screen.BiomepediaHomeScreen": true,
+    "potionstudios.byg.client.gui.biomepedia.screen.BiomeListScreen": true,
+    "potionstudios.byg.client.gui.biomepedia.screen.BiomeAboutScreen": true,
+    "potionstudios.byg.client.gui.biomepedia.screen.BiomeAboutScreen2": true,
+    "com.chaosthedude.naturescompass.gui.NaturesCompassScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

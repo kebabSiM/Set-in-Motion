@@ -39,7 +39,7 @@
 	#Blacklist for items that mimicream cannot make a copy of. Ex: "minecraft:stone_sword", "alexsmobs:blood_sprayer"
 	mimicreamBlacklist = ["alexsmobs:blood_sprayer", "alexsmobs:hemolymph_blaster"]
 	#Whether wild raccoons steal food from chests.
-	raccoonStealFromChests = true
+	raccoonStealFromChests = false
 	#Whether fish oil gives players a special levitation effect.
 	fishOilMeme = true
 	#Whether soul vulture spawns should be restricted solely to the nether fossil structure or to whatever biome is specified in their respective biome config.
@@ -98,7 +98,7 @@
 	#Whether the void worm boss is summonable or not, via the mysterious worm item.
 	voidWormSummonable = true
 	#Whether seagulls should steal food out of players' hotbar slots.
-	seagullStealing = true
+	seagullStealing = false
 	#List of items that seagulls cannot take from players.
 	seagullStealingBlacklist = []
 	#Whether the Clinging Potion effect should flip the screen. Warning: may cause nausea.

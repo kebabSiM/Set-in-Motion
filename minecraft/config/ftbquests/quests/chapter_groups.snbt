@@ -1,6 +1,5 @@
 {
 	chapter_groups: [
-		{ id: "502E7767357532A2", title: "Shop" }
 		{ id: "29C89B2F6F92F394", title: "Tinker's Construct" }
 		{ id: "6471328BBAEE743A", title: "Create" }
 	]

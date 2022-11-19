@@ -1,0 +1,11 @@
+{
+	id: "2BF1E50A1507561F"
+	group: "6471328BBAEE743A"
+	order_index: 0
+	filename: "andesite"
+	title: "Rock and Stone!"
+	icon: "create:andesite_alloy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

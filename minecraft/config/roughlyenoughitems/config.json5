@@ -12,7 +12,7 @@
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": false,
+		"cheating": true,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
@@ -382,7 +382,7 @@
 			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
 		},
 		"accessibility": {
-			"entrySize": 1.01,
+			"entrySize": 1.085,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
 			// Declares how the scrollbar in composite screen should act.

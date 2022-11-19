@@ -24,5 +24,15 @@ onEvent('recipes', event => {
   event.remove({output: 'mekanism:ingot_tin'}),
   event.remove({output: 'mekanism:ingot_lead'}),
   event.remove({output: 'mekanism:ingot_uranium'}),
+  event.remove({output: 'mekanism:nugget_bronze'}),
+  event.remove({output: 'mekanism:nugget_steel'}),
+  event.remove({output: 'mekanism:nugget_tin'}),
+  event.remove({output: 'mekanism:nugget_lead'}),
+  event.remove({output: 'mekanism:nugget_uranium'}),
 //Remove recipe for the Structure Compass, as it can locate the Stronghold with no Ender Eyes.
-  event.remove({output: 'structurecompass:structurecompass'})})
+  event.remove({output: 'structurecompass:structurecompass'}),
+//Remove recipe for Manaweave Cloth, as it's really expensive.
+  event.remove({output: 'botania:manaweave_cloth'}),
+//Remove recipe for Create's dough, as Farmer's Delight's Wheat Dough exists.
+  event.remove({output: 'create:dough'})
+})

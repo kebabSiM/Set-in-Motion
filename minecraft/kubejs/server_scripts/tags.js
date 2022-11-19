@@ -13,7 +13,7 @@ onEvent('tags.items', event => {
     event.removeAllTagsFrom('mekanism:ingot_lead'),
     event.removeAllTagsFrom('mekanism:ingot_uranium')
 
-// Add endRem eyes to tags
+// Add tags to EndRem.
 event.add('endrem:end_eyes', 'endrem:black_eye'),
 event.add('endrem:end_eyes', 'endrem:cold_eye'),
 event.add('endrem:end_eyes', 'endrem:corrupted_eye'),
@@ -28,4 +28,8 @@ event.add('endrem:end_eyes', 'endrem:magical_eye'),
 event.add('endrem:end_eyes', 'endrem:wither_eye'),
 event.add('endrem:end_eyes', 'endrem:witch_eye'),
 event.add('endrem:end_eyes', 'endrem:undead_eye'),
-event.add('endrem:end_eyes', 'endrem:exotic_eye')})
+event.add('endrem:end_eyes', 'endrem:exotic_eye'),
+
+// Add Architect's Palette to Tinker's Construct.
+event.add('forge:wither_bones', 'architects_palette:withered_bone')
+})
